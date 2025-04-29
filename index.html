@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Emploi du Temps</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="user-info">
+    <button id="login-btn">Se connecter</button>
+  </div>
+
+  <div class="container">
+    <div class="header">
+      <h1>Emploi du temps SALLE SN2</h1>
+      <button id="settingsBtn">⚙️</button>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Heure</th>
+          <th>Lundi</th>
+          <th>Mardi</th>
+          <th>Mercredi</th>
+          <th>Jeudi</th>
+          <th>Vendredi</th>
+        </tr>
+      </thead>
+      <tbody id="scheduleBody">
+        <!-- Les lignes seront générées dynamiquement -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
